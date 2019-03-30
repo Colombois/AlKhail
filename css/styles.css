@@ -176,7 +176,51 @@ nav img {
   }
 }
 
+@-webkit-keyframes fade {
+  0% {
+    opacity: 1
+  }
+
+  25% {
+    opacity: 0
+  }
+
+  50% {
+    opacity: 0
+  }
+
+  75% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
 @keyframes fade2 {
+  0% {
+    opacity: 0
+  }
+
+  25% {
+    opacity: 1
+  }
+
+  50% {
+    opacity: 0
+  }
+
+  75% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 0
+  }
+}
+
+@-webkit-keyframes fade2 {
   0% {
     opacity: 0
   }
@@ -220,7 +264,51 @@ nav img {
   }
 }
 
+@-webkit-keyframes fade3 {
+  0% {
+    opacity: 0
+  }
+
+  25% {
+    opacity: 0
+  }
+
+  50% {
+    opacity: 1
+  }
+
+  75% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 0
+  }
+}
+
 @keyframes fade4 {
+  0% {
+    opacity: 0
+  }
+
+  25% {
+    opacity: 0
+  }
+
+  50% {
+    opacity: 0
+  }
+
+  75% {
+    opacity: 1
+  }
+
+  100% {
+    opacity: 0
+  }
+}
+
+@-webkit-keyframes fade4 {
   0% {
     opacity: 0
   }
@@ -469,10 +557,12 @@ footer ul li:hover>a {
   padding: 10px;
   cursor: pointer;
   filter: grayscale(0.5);
+  -webkit-filter: grayscale(0.5);
 }
 
 #projects img:hover {
   filter: grayscale(0);
+  -webkit-filter: grayscale(0);
 }
 
 .hide {
