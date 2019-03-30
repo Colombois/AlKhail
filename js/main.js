@@ -1,3 +1,11 @@
+window.load = preload();
+
+function preload(){
+  for (var i = 1; i < 93; i++) {
+    $('#projects').append('<a href="images/projects/villa/0' + i + '.jpg" data-lightbox="roadtrip"><img src="images/projects/villa/0' + i + '.jpg">');
+  }
+}
+
 $(document).ready(function() {
 
   /*nav toggle*/
@@ -12,14 +20,6 @@ $(document).ready(function() {
   // mobile button click
   $('.toggleMenu').on("click", function() {
     $("nav ul").toggleClass("showing");
-  })
-
-  // sorting project.html images
-
-  $( window ).on( "load", function(){
-    for (var i = 1; i < 93; i++) {
-      $('#projects').append('<a href="images/projects/villa/0' + i + '.jpg" data-lightbox="roadtrip"><img src="images/projects/villa/0' + i + '.jpg">');
-    }
   })
 
   $('#villa').click(function() {
