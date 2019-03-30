@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Projects | Al Khail Engineering Consultant</title>
+  <link rel="stylesheet" href="css\styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="css\diamonds.css">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"></script>
+</head>
+<header>
+  <nav>
+    <img src="images\uploads\logo.png" alt="">
+    <div class="toggleMenu">
+      <span class="fas fa-bars"></span>
+    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#section-b">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="index.html#section-d">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<body>
+  <section id="proj-container"  class="section">
+    <h1 style="padding-top: 100px; padding-bottom: 20px;">Our Projects</h1>
+    <ul>
+      <li id="villa" class="active">Villas</li>
+      <li id="interior" >Interior</li>
+      <li id="building" >Buildings</li>
+      <li id="mosque" >Mosques</li>
+    </ul>
+    <div id="projects" class="">
+    </div>
+  </section>
+
+  <footer>
+    <img src="images\uploads\logo.png" alt="">
+    <ul>
+      <li><a href="" class="fab fa-facebook-f"></a></li>
+      <li><a href="" class="fab fa-twitter"></a></li>
+      <li><a href="" class="fab fa-instagram"></a></li>
+      <li><a href="" class="fab fa-linkedin-in"></a></li>
+    </ul>
+  </footer>
+
+
+  <script src="js\main.js" type="text/javascript"></script>
+  <script src="js\jquery.diamonds.js" type="text/javascript"></script>
+  <script src="js\lightbox.js"></script>
+  <script>
+    $(".gallery").diamonds({
+      size: 170, // Size of diamonds in pixels. Both width and height.
+      gap: 5, // Pixels between each square.
+      hideIncompleteRow: false, // Hide last row if there are not enough items to fill it completely.
+      autoRedraw: true, // Auto redraw diamonds when it detects resizing.
+      itemSelector: ".item" // the css selector to use to select diamonds-items.
+    });
+  </script>
+</body>
+</html>
