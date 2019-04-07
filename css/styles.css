@@ -1,0 +1,410 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  text-align: center;
+  font-family: 'Dosis';
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  -ms-scroll-behavior: smooth;
+  font-weight: 400;
+  text-align: center;
+  /*font-family: 'Alegreya';  for the headings  */
+}
+
+h1 {
+  font-weight: 600;
+  color: #4d0101;
+  font-size: 34px;
+}
+
+p {
+  font-weight: 500;
+  color: #000;
+  font-size: 18px;
+}
+
+nav {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 100px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+nav ul {
+  line-height: 60px;
+  list-style: none;
+  overflow: hidden;
+  color: #fff;
+  text-align: right;
+  transition: 1s;
+  margin: 15px;
+  -webkit-transition: 1s;
+  -ms-transition: 1s;
+  cursor: pointer;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 0 10px;
+}
+
+nav ul li:hover {
+  border-bottom: 2px solid #fff;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+nav img {
+  max-height: 100px;
+  max-width: 390px;
+  height: 100%;
+  width: 100%;
+  float: left;
+}
+
+.toggleMenu {
+  display: none;
+}
+
+.toggleNav {
+  background: #4d0101;
+}
+
+.section {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#section-a {
+  background: url('../images/projects/buildings/018.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.slider h3 {
+  color:#fff ;
+  font-weight: 100;
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  font-size: 25px;
+}
+
+.title {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.title p {
+  padding-top: 10px;
+}
+
+.title span {
+  border-bottom: 3px solid #4d0101;
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 8px;
+}
+
+.services {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+  width: 400px;
+  padding: 10px;
+  margin: 30px;
+}
+
+.container img {
+  height: 150px;
+  width: 150px;
+}
+
+.container h3 {
+  font-weight: 600;
+  font-size: 22px;
+  color: #4d0101;
+  padding: 10px 0;
+}
+
+.breaker {
+  min-height: 30vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.breaker i {
+  color: #4d4b4b;
+  font-size: 80px;
+  padding-top: 40px;
+}
+
+.breaker h3 {
+  color: #4d4b4b;
+  font-weight: 900;
+  font-size: 24px;
+  padding: 20px 0;
+}
+
+#breaker-one {
+  background: url('../images/uploads/break-1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+#breaker-two {
+  background: url('../images/uploads/break-2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.gallery {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.item {
+  width: 170px;
+  height: 170px;
+  background: #fff;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+.item img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%) scale(2.2);
+  -webkit-transform: translateY(-50%) scale(2.2);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  width: 100%;
+}
+
+.item img:hover {
+  opacity: 1;
+  transform: translateY(-50%) scale(1.8);
+  -webkit-transform: translateY(-50%) scale(1.8);
+}
+
+button {
+  margin: 100px;
+  width: 140px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #4d0101;
+  font-family: 'Dosis';;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #4d0101;
+  color: #fff;
+}
+
+.contact {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.contact h3 {
+  color: #4d0101;
+  padding: 10px;
+}
+
+.contact p {
+  padding: 10px;
+}
+
+#map {
+  max-width: 1000px;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+footer {
+  padding-top: 20px;
+  background: #4d0101;
+}
+
+footer img {
+  padding-top: 20px;
+  max-height: 150px;
+  max-width: 500px;
+  height: 100%;
+  width: 100%;
+}
+
+footer ul li {
+  list-style: none;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+footer ul li:hover {
+  cursor: pointer;
+  background: #fff;
+}
+
+footer ul li:hover>a {
+  color: #000;
+}
+
+#proj-container ul{
+  padding: 10px 0;
+}
+
+#proj-container ul li{
+  list-style: none;
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 13px;
+}
+
+#proj-container ul li:hover{
+  cursor: pointer;
+  color: #4d0101;
+  font-style: bold;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  border-bottom: 1px solid #4d0101;
+}
+
+.active {
+  color: #4d0101;
+  font-weight: 600;
+  border-bottom: 1px solid #4d0101;
+}
+
+#projects img {
+  height: 250px;
+  max-width: 400px;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  filter: grayscale(0.5);
+  -webkit-filter: grayscale(0.5);
+}
+
+#projects img:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+
+.hide {
+  display: none;
+}
+
+@media (max-width: 820px) {
+  .gallery {
+    width: 100%;
+  }
+
+  nav {
+      background: #4d0101;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: #4d0101;
+    width: 100%;
+    margin: 0;
+  }
+
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 0px;
+    text-align: center;
+  }
+
+  nav img {
+    max-height: 90px;
+    max-width:290px;
+    height: 100%;
+    width: 100%;
+    float: left;
+  }
+
+  .showing {
+    max-height: 34em;
+
+  }
+
+  .toggleMenu {
+    color: #fff;
+    font-size: 36px;
+    right: 0;
+    float: right;
+    padding: 25px 20px;
+    cursor: pointer;
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1080px){
+
+  #section-a {
+    background-attachment: fixed;
+  }
+
+  #breaker-one {
+    background-attachment: fixed;
+  }
+
+  #breaker-two {
+    background-attachment: fixed;
+  }
+}
