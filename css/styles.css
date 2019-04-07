@@ -122,6 +122,7 @@ nav img {
   background: url('../images/projects/buildings/018.jpg');
   background-size: cover;
   background-position: center;
+  background-attachment: scroll;
   animation: fade 20s infinite;
   -webkit-animation: fade 20s infinite;
 }
@@ -130,6 +131,7 @@ nav img {
   background: url('../images/projects/buildings/019.jpg');
   background-size: cover;
   background-position: center;
+  background-attachment: scroll;
   animation: fade2 20s infinite;
   -webkit-animation: fade2 20s infinite;
 }
@@ -138,6 +140,7 @@ nav img {
   background: url('../images/projects/buildings/09.jpg');
   background-size: cover;
   background-position: center;
+  background-attachment: scroll;
   animation: fade3 20s infinite;
   -webkit-animation: fade3 20s infinite;
 }
@@ -146,6 +149,7 @@ nav img {
   background: url('../images/projects/buildings/029.jpg');
   background-size: cover;
   background-position: center;
+  background-attachment: scroll;
   animation: fade4 20s infinite;
   -webkit-animation: fade4 20s infinite;
 }
