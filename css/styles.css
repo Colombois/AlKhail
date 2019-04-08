@@ -112,33 +112,41 @@ nav img {
 }
 
 .slide1 {
-  background: url('../images/projects/buildings/018.jpg');
+  background: url('../images/projects/buildings/018.jpg') no-repeat center center;
   background-size: cover;
-  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   animation: fade 20s infinite;
   -webkit-animation: fade 20s infinite;
 }
 
 .slide2 {
-  background: url('../images/projects/buildings/019.jpg');
+  background: url('../images/projects/buildings/019.jpg') no-repeat center center;
   background-size: cover;
-  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   animation: fade2 20s infinite;
   -webkit-animation: fade2 20s infinite;
 }
 
 .slide3 {
-  background: url('../images/projects/buildings/09.jpg');
+  background: url('../images/projects/buildings/09.jpg') no-repeat center center;
   background-size: cover;
-  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   animation: fade3 20s infinite;
   -webkit-animation: fade3 20s infinite;
 }
 
 .slide4 {
-  background: url('../images/projects/buildings/029.jpg');
+  background: url('../images/projects/buildings/029.jpg') no-repeat center center;
   background-size: cover;
-  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   animation: fade4 20s infinite;
   -webkit-animation: fade4 20s infinite;
 }
