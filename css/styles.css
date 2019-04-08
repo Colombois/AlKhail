@@ -310,14 +310,12 @@ nav img {
   background: url('../images/uploads/break-1.jpg');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
 }
 
 #breaker-two {
   background: url('../images/uploads/break-2.jpg');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
 }
 
 .gallery {
@@ -525,7 +523,7 @@ footer ul li:hover>a {
   }
 }
 /*
-@media (min-width: 1080px) {
+@media (min-width: 1360px) {
   .slide1, .slide2, .slide3, .slide4 {
     background-attachment: fixed;
   }
