@@ -307,17 +307,19 @@ nav img {
 }
 
 #breaker-one {
-  background: url('../images/uploads/break-1.jpg');
+  background: url('../images/uploads/break-1.jpg') no-repeat center center;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 #breaker-two {
-  background: url('../images/uploads/break-2.jpg');
+  background: url('../images/uploads/break-2.jpg') no-repeat center center;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .gallery {
@@ -524,9 +526,13 @@ footer ul li:hover>a {
     display: inline-block;
   }
 }
-/*
+
 @media (min-width: 1080px) {
   .slide1, .slide2, .slide3, .slide4 {
     background-attachment: fixed;
   }
-}*/
+
+  #breaker-one , #breaker-two {
+    background-attachment: fixed;
+  }
+}
