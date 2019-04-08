@@ -93,8 +93,9 @@ header {
   min-height: 100vh;
   height: 100%;
   width: 100%;
-  background: url('../images/projects/buildings/09.jpg');
+  background: url('../images/projects/buildings/09.jpg') no-repeat center center;
   background-size: cover;
+  -webkit-background-size: cover;
   background-position: center;
   background-attachment: scroll;
 }
