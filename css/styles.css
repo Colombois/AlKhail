@@ -89,7 +89,10 @@ nav img {
   overflow: hidden;
 }
 
-#section-a {
+header {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
   background: url('../images/projects/buildings/09.jpg');
   background-size: cover;
   background-position: center;
@@ -396,7 +399,7 @@ footer ul li:hover>a {
 
 @media (min-width: 1080px){
 
-  #section-a {
+  header {
     background-attachment: fixed;
   }
 
